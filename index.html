@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="id>">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Notes App - Dava</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1>Notes App</h1>
+            <p class="subtitle">Catatan tersimpan otomatis di browser (LocalStorage).</p>
+
+            <form id="noteForm">
+                <input id="title" type="text" placeholder="Judul catatan..." required>
+                <textarea id="content" placeholder="Isi catatan..." required></textarea>
+                <button type="submit">Tambah Catatan</button>
+            </form>
+            <div id="notesList" class="notes-list"></div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
