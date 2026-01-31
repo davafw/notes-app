@@ -13,5 +13,10 @@ Simple CRUS Notes App using LocalStorage.
 - CSS(Dark Mode)
 - JavaScript
 
+## New Features
+- Search notes
+- Edit notes
+- Timestamps (created/updated)
+
 ## Author 
 Dava Febri Wardana
