@@ -128,3 +128,7 @@ button[type="submit"] {
     opacity: 0.9;
  }
 
+ #search {
+    margin-bottom: 12px;
+ }
+
